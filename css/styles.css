@@ -2,6 +2,12 @@ body {
   background-color: #fffaec;
 }
 
+h1,
+h2,
+#home {
+  color: #578e7e;
+}
+
 hr {
   border-style: none;
   border-top: 5px dotted;
@@ -9,8 +15,7 @@ hr {
   width: 70%;
 }
 
-h1,
-h2,
-#home {
-  color: #578e7e;
+/* pseudo class */
+p:hover {
+  color: gray;
 }
